@@ -1,0 +1,17 @@
+{
+  "hello": "Hello!",
+  "welcome": "Welcome to Fastify Plugins Demo",
+  "goodbye": "Goodbye!",
+  "greeting": "Hello, {{name}}!",
+  "error": {
+    "notFound": "Resource not found",
+    "unauthorized": "Please log in to continue",
+    "forbidden": "You don't have permission"
+  },
+  "api": {
+    "success": "Operation completed successfully",
+    "created": "Resource created",
+    "updated": "Resource updated",
+    "deleted": "Resource deleted"
+  }
+}

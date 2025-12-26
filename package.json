@@ -1,0 +1,47 @@
+{
+  "name": "fastify-plugins-demo",
+  "version": "1.0.0",
+  "description": "Demo project showcasing 7 production-ready Fastify plugins by @fracabu",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "node --test --experimental-test-coverage test/*.test.ts",
+    "env:check": "env-checkup",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "fastify",
+    "plugins",
+    "api-key",
+    "cache-control",
+    "rfc9457",
+    "webhook",
+    "i18n",
+    "demo"
+  ],
+  "author": "Francesco Capurso (@fracabu)",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/static": "^9.0.0",
+    "@fracabu/fastify-api-key": "^1.0.2",
+    "fastify": "^5.0.0",
+    "fastify-cache-control": "^1.0.0",
+    "fastify-i18n-plugin": "^1.0.0",
+    "fastify-rfc9457": "^1.0.0",
+    "fastify-webhook-verify": "^1.0.0"
+  },
+  "devDependencies": {
+    "@fracabu/env-checkup": "^1.0.0",
+    "@types/node": "^22.0.0",
+    "node-test-expect": "^1.0.0",
+    "pino-pretty": "^13.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
