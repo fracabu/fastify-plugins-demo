@@ -9,7 +9,7 @@
 
 **A demo project showcasing 7 production-ready Fastify plugins by [@fracabu](https://github.com/fracabu)**
 
-[Live Demo](#quick-start) | [Plugins](#plugins) | [API Docs](#api-endpoints) | [npm Packages](#npm-packages)
+[Quick Start](#quick-start) | [Plugins](#plugins) | [API Docs](#api-endpoints) | [npm Packages](#npm-packages)
 
 </div>
 
